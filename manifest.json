@@ -5,7 +5,7 @@
   "description": "A motivational study planner for your new tab page",
   "permissions": [],
   "chrome_url_overrides": {
-    "newtab": "newtab.html"
+    "newtab": "index.html"
   },
   "icons": {
     "16": "images/studydue.png",
