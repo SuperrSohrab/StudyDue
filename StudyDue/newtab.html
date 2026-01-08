@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/studydue.png">
+    <link rel="stylesheet" href="newtab.css">
+    <title>New Tab</title>
+</head>
+<body>
+    
+
+    <div class="container">
+        <div id="greeting" class="greeting"></div>
+        <div id="mytime" class="time"></div>
+        <form action="https://www.google.com/search" method="get" class="search-bar">
+            <input type="text" placeholder="Find your answers..." class="search-bar" name="q">
+            <button type="submit"><img src="images/search-button.png"></button>
+        </form>
+        <button type="button" id="add-project-btn" class="btn">Add your project</button>
+    </div>
+    <div class="gcse-search"></div>
+
+    <div class="popup" id="popup">
+        <img src="images/book.png" alt="Book Icon">
+        <br>
+        <h4>Add your project and its due date</h4>
+        <br>
+        <input type="text" class="submitinput" id="projectname" placeholder="Enter project name">
+        <br>
+        <input type="date" class="submitinput" id="duedate">
+        <br>
+        <button type="button" id="popup-cancel" class="btncancel">Cancel</button>
+        <input type="submit" id="popup-add" class="btnsubmit"></input>
+    </div>
+
+    <div id="project-list" class="project-list"></div>
+
+    <script src="newtab.js"></script>
+</body>
+</html>
