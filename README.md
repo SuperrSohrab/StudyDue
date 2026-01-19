@@ -33,3 +33,6 @@ You may copy, modify, and redistribute this extension. Use it at your own risk; 
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Note
+This project was meant to be as a downloadable extension, however, since Google has set restrictions I cannot upload it to google extensions, so I have the following demo link on how the web page is supposed to look: https://superrsohrab.github.io/StudyDue/
